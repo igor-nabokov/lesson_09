@@ -1,0 +1,37 @@
+.container {
+	width: 306px;
+	border: 1px solid #000000;
+}
+
+.row {
+	overflow: auto;
+}
+
+.row div {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000000;
+	font: bold 48px arial;
+	line-height: 100px;
+	text-align: center;
+}
+
+.col_left {
+	float: left;
+}
+
+.col_right {
+	float: right;
+}
+
+.col_center {
+	margin: 0 102px;
+}
+
+.cell {
+	cursor: pointer;
+}
+
+.cell:hover {
+	background-color: #eee;
+}
